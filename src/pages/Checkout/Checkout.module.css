@@ -1,0 +1,148 @@
+.fullContainer {
+  width: 100%;
+  height: 800px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://cdn.prod.website-files.com/5fff1ad5a5243c2a939e355b/5fff30eb9b136cee65436476_Bracelets-00001.jpg");
+  background-position: center;
+  background-size: cover; /* Ensure the background covers the full area */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container {
+  width: 600px; 
+  margin: 0 auto;
+  height: 500px;
+  padding: 20px;
+  background-color: #fffcf7;
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  animation: fadeIn 1s ease-out;
+  background-color: var(--background-color);
+}
+
+.cardWrapper {
+  margin-bottom: 20px;
+  text-align: center;
+  transform: translateY(-20px);
+  animation: cardAppear 0.8s ease-out forwards;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.formGroup,
+.formGroupSmall {
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  background-color: var(--background-color);
+}
+
+.input:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formGroupSmall {
+  width: 48%;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  animation: buttonBounce 1.2s ease-out infinite;
+}
+
+
+@media (max-width: 800px) {
+  .container {
+    width: 90%; 
+    height: auto; 
+  }
+
+  .input {
+    font-size: 0.9rem; 
+  }
+
+  .submitButton {
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 500px) {
+  .fullContainer {
+    height: 600px;
+  }
+
+  .container {
+    width: 95%; 
+    padding: 15px; 
+  }
+
+  .input {
+    padding: 10px 12px; 
+    font-size: 0.85rem;
+  }
+
+  .submitButton {
+    padding: 10px;
+    font-size: 1rem; 
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes cardAppear {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes buttonBounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}

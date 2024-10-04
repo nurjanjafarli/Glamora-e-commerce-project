@@ -1,0 +1,453 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: static;
+  background-color: var(--background-color);
+  padding: 50px;
+}
+
+.navbarBrand a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbarBrand a h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.navbarMenu {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 100px;
+  justify-content: space-between;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+.navbarMenu ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarMenu li {
+  margin-left: 14px;
+  display: flex;
+  align-items: center;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.navbarMenu a {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  text-decoration: none;
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.burger .bar {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+.icons {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 50px;
+  font-size: 22px;
+  gap: 30px;
+
+}
+
+.icons a button {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.darkLight {
+  border: 1px solid transparent;
+  background-color: transparent;
+  color: var(--text-color);
+}
+
+.span1,
+.span2 {
+  color: var(--text-color);
+  width: 20px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+}
+
+.span1 {
+  right: 135px;
+}
+
+.span2 {
+  right: 190px;
+}
+
+.userLogin {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 700;
+  color: var(--text-color);
+  cursor: pointer;
+  z-index: 99;
+}
+
+.loggedInMenu {
+  position: relative;
+}
+
+.userLogin span button {
+  border: 1px solid transparent;
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 8px;
+  z-index: 9990;
+  padding: 10px;
+  width: 180px;
+}
+
+.dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownMenu ul li {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.dropdownMenu ul li a,
+.dropdownMenu ul li button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.dropdownMenu ul li a:hover,
+.dropdownMenu ul li button:hover {
+  background-color: var(--background-color);
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+.dropdownMenu ul li button {
+  display: flex;
+  align-items: center;
+}
+
+.dropdownMenu ul li button svg {
+  margin-right: 0.5rem;
+}
+
+.languageSwitcher {
+  position: relative;
+}
+
+.languageButton {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+.languageButton:hover {
+  background: #4c4c4c;
+}
+
+.languageDropdown {
+  width: 100px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--background-color);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 16px;
+}
+
+.languageDropdown button {
+  background: none;
+  border: none;
+  padding: 8px;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.5s;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.languageDropdown button:hover {
+  background-color: #d4d4d4;
+  border-radius: 5px;
+}
+
+.navbarMenuResp {
+  display: none;
+}
+
+.wishListDiv,
+.basketDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.wishListDiv .span2 {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.basketDiv .span1 {
+  position: absolute;
+  right: -10px;
+  top: 0px;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+@media (max-width: 800px) {
+  .navbarMenu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbarMenu.is-active {
+    display: flex;
+  }
+  .navbarBrand h1{
+padding-left: 140px;
+
+  }
+
+  .burger {
+    display: flex;
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  .navbarMenu ul {
+    flex-direction: column;
+  }
+
+  .navbarMenu li {
+    font-size: 20px;
+    margin: 16px 0;
+  }
+
+  .icons {
+    padding-left: 250px;
+    font-size: 20px;
+    gap: 25px;
+  }
+
+  .isActive {
+    display: flex;
+  }
+
+  .navbarMenuResp {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    top: 101px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    right: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Cormorant Garamond", serif;
+    transform: translateX(1s);
+  }
+
+  .navbarMenuResp a {
+    text-decoration: none;
+
+    font-size: 30px;
+    color: var(--text-color);
+  }
+
+  .closeButtonHeader {
+    position: absolute;
+    right: 20px;
+    color: var(--text-color);
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .navbarMenuResp ul {
+    list-style: none;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbarMenuResp ul li:active {
+    background-color: var(--background-color);
+  }
+
+  .isActive {
+    display: flex;
+  }
+
+  .burger {
+    position: absolute;
+    left: 30px;
+  }
+
+  .navbarBrand {
+    position: absolute;
+    left: 30px;
+  }
+
+  .loggedInMenu {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .wishListDiv .span2,
+  .basketDiv .span1 {
+    top: -5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .wishListDiv {
+    display: none;
+  }
+  .userLogin {
+    display: none;
+  }
+  .profileIcon {
+    display: none;
+  }
+  .languageSwitcher {
+    display: none;
+  }
+  .darkLight {
+    display: none;
+  }
+  .basketDiv {
+    left: 90px;
+
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .navbarBrand a h1 {
+    text-align: center;
+    width: 300px;
+
+  }
+
+  .navbarMenu ul {
+    width: 100%;
+  }
+
+  .navbarMenu li {
+    margin: 8px 0;
+    font-size: 16px;
+    text-align: center;
+    padding-right: 60px;
+  }
+
+  .burger .bar {
+    width: 30px;
+    align-items: flex-start;
+  }
+
+  .burger {
+    position: absolute;
+  }
+  .basketDiv {
+    display: flex;
+  }
+  .wishListDiv .span2,
+  .basketDiv .span1 {
+    top: -5px;
+  }
+}

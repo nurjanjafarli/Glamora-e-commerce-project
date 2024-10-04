@@ -1,0 +1,211 @@
+.fullContainer {
+  width: 100%;
+  min-height: 800px;
+  background-color: white;
+ 
+  background-image: url("https://cdn.prod.website-files.com/64e10aa388168f56d36f2dae/65df3b3d6fcd4d32f1ac66c3_Header%20Section%20Shape%20Line-p-2000.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  background-color: var( --background-color);
+  color: var(  --text-color);
+}
+
+.infoContainer {
+  width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 100px 100px;
+}
+
+.imageBox {
+  width: 40%;
+  height: 100%;
+}
+
+.imageBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.textBox {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Marcellus", serif; color: var(  --text-color);
+}
+
+.textBox h1 {
+  font-size: 60px;
+
+  color: var(  --text-color);
+}
+
+.textBox p {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 10px; color: var(  --text-color);
+}
+
+.textBox h2 {
+  color: #310307;
+  font-size: 19px;
+  font-weight: 500;
+  padding-top: 10px;
+  word-spacing: 5px;
+  color: var(  --text-color);
+}
+
+.box {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.counter button {
+  width: 60px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.counter span {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.box .unicButton {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+}
+
+.wislist {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+
+
+
+.wislist h1 {
+  font-family: "Marcellus", serif;
+}
+
+@media screen and (max-width: 800px) {
+  .fullContainer {
+    min-height: auto;
+    padding: 20px;
+    background-size: cover;
+  }
+
+  .infoContainer {
+    flex-direction: column;
+    padding: 20px;
+    min-height: auto;
+  }
+
+  .imageBox,
+  .textBox {
+    width: 100%;
+    height: auto;
+  }
+
+  .textBox h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .textBox p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .textBox h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .box {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .box .unicButton {
+    width: 200px;
+   
+  }
+
+  .wishlist  {
+    width: 100%;
+    height: 40px;
+
+    justify-content: center;
+    margin-top: 10px;
+    border: 1px solid transparent;
+  
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fullContainer {
+    padding: 20px 10px;
+  }
+
+  .infoContainer {
+    padding: 10px;
+  }
+
+  .textBox h1 {
+    font-size: 28px;
+  }
+
+  .textBox p {
+    font-size: 18px;
+  }
+
+  .textBox h2 {
+    font-size: 14px;
+  }
+
+  .counter button {
+    width: 40px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .box .unicButton {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .wishlist {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wishlist a {
+    font-size: 18px;
+  }
+}

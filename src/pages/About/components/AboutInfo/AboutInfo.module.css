@@ -1,0 +1,64 @@
+
+.aboutInfoContainer {
+  width: 100%;
+  height: 500px;
+  background-image: 
+    url("https://valeska.qodeinteractive.com/wp-content/uploads/2021/06/p1-img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Cormorant Garamond", serif;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInSlideUp 1.5s forwards ease-in-out;
+
+}
+
+@keyframes fadeInSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.aboutInfoContainer p {
+  font-size: 30px;
+  opacity: 0;
+  animation: fadeInText 1.5s forwards ease-in-out 0.5s;
+}
+
+.aboutInfoContainer h1 {
+  font-size: 120px;
+  text-shadow: 1px 1px 2px pink;
+  opacity: 0;
+  animation: fadeInText 1.5s forwards ease-in-out 0.2s;
+}
+
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutInfoContainer p {
+    font-size: 25px;
+  } 
+  .aboutInfoContainer h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutInfoContainer p {
+    font-size: 20px;
+  } 
+  .aboutInfoContainer h1 {
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,213 @@
+{
+    "header":{
+        "li1":"HOME",
+        "li2":"ABOUT",
+        "li3":"SHOP  ",
+        "li4":"FAQ",
+        "li5":"BLOGS",
+        "li6":"CONTACT"
+
+    },
+    "home1":{
+        "home1-yazi1":"FOR THE UPCOMING SEASON",
+        "home1-yazi2":"NEW COLLECTION FOR THE SUMMER",
+        "home1-yazi3":"VIEW MORE",
+        "home1-yazi4":"ALWAYS BE FASHIONABLE",
+        "home1-yazi5":"STYLE THAT HERE TO STAY FOR ALL TIME"
+    },
+    "promise":{
+        "promise-yazi1":"OUR PROMISE",
+        "promise-yazi2":"RESPONSIBLY PRODUCED JEWELLERY",
+        "promise-yazi3":"Refined glamour by Glamora Our collection stands as a testament to the artistry of elegance, meticulously crafted to redefine glamour in every detail. Discover the refined glamour that Glamora brings to every adorned moment, transforming each occasion into a truly special and memorable experience.",
+        "promise-yazi4":"READ MORE"
+
+    },
+    "features":{
+        "features-yazi1":"Free Shipping",
+        "features-yazi2":"You will love at great low prices",
+        "features-yazi3":"Flexible Payment",
+        "features-yazi4":"Pay with Multiple Credit Cards",
+        "features-yazi5":"Fast Delivery",
+        "features-yazi6":"Experience the joy of fast shipping",
+        "features-yazi7":"Premium Support",
+        "features-yazi8":"Outstanding premium support"
+    },
+    
+        "aboutComponent": {
+          "title": "Find something new in every Glamora collection",
+          "description": "We are passionate about modern & stylish jewelry. We specialize in offering a curated selection of modern & stylish jewelry that reflects elegance.",
+          "aboutUsButton": "ABOUT US"
+        },
+        "uniqueStyle": {
+            "latestCollection": "LATEST COLLECTION",
+            "title": "NEW WINTER ITEMS",
+            "description": "We believe in harmonizing innovation with tradition. We aspire to set new standards of sophistication, inviting individuals to express their unique style through our meticulously crafted creations, where every piece is a testament to our shared vision of timeless beauty."
+          },
+          "findUs": {
+            "getInTouch": "GET IN TOUCH",
+            "findUsHere": "FIND US HERE",
+            "address": "1939 Scott Street New York, NY 10013 Mon – Sat: 9am – 7pm",
+            "phone": "P: 845-519-2189",
+            "email": "E: glamora@example.com"
+          },
+          "aboutInfo": {
+            "title": "About Us"
+          },
+          
+            "infoOne": {
+              "mission": "OUR MISSION",
+              "uniqueMessage": "YOU ARE UNIQUE WE ARE HERE TO EMBRACE IT"
+            },
+            "infoTwo": {
+                "beauty": "UNCONDITIONAL BEAUTY",
+                "designPriority": "BELIEVE IN DESIGN PRIORITY",
+                "description": "At Glamora, our story is one of passion, craftsmanship, & a dedication to redefining elegance. Our journey takes us around the globe in search of the finest materials and the most skilled artisans. Every piece in the Glamora collection is a testament to the meticulous craftsmanship and attention to detail that define our brand."
+              },
+              "infoThree": {
+                "vision": "Our Vision",
+                "description": "We believe in harmonizing innovation with tradition. We aspire to set new standards of sophistication, inviting individuals to express their unique style through our meticulously crafted creations. Every piece is a testament to our shared vision of timeless beauty. Our vision is to craft not just jewelry but moments—moments that celebrate individuality, mark milestones, and weave stories that endure."
+              }, "testimonials": {
+                "title": "Testimonial",
+                "customer": "Happy Customer",
+                "feedback": "Glamora truly lives up to its name. The jewelry is not only lavish in design but also in quality. I've never been disappointed with any purchase. The ease of returns and prompt refunds are an added bonus. Lavish has become my go-to for all things elegant.",
+                "author": "- Jenny Wilson"
+              }
+          ,
+            "faq": {
+              "title": "FAQ"
+            },"info": {
+                "title": "Common Inquiries",
+                "questions": [
+                  {
+                    "title": "How can I reach Glamora customer support?",
+                    "content": "We're here to assist you! Visit our 'Contact Us' page for various ways to connect with our dedicated support team."
+                  },
+                  {
+                    "title": "Can I modify the shipping address after placing my order?",
+                    "content": "To ensure secure delivery, changes to the address can be made within 24 hours of placing your order. Please contact our support team for help."
+                  },
+                  {
+                    "title": "Do Glamora products come with a certificate of authenticity?",
+                    "content": "Yes, each Glamora product includes a certificate of authenticity, guaranteeing the quality of our materials and craftsmanship."
+                  },
+                  {
+                    "title": "Is international shipping available?",
+                    "content": "Absolutely! Glamora proudly offers international shipping. Visit our 'Shipping' page for detailed information on delivery times and costs."
+                  }
+                ]
+              }, "contactFaq": {
+                "title": "Adorn your moments with the glamour of Glamora",
+                "description": "Glamora your style with our curated collections designed for every occasion. Click to explore and add a touch of Lavish elegance to your life.",
+                "button": "Contact Us"
+              }, "backImage": {
+                "title": "Contact Us"
+              }, "infoContact": {
+                "title": "Visit us for an unforgettable experience!",
+                "description": "Connect with Lavish, and let's make every interaction as luxurious as our jewelry. Let's engage in a conversation that elevates your journey with us. Your journey into luxury awaits at Lavish.",
+                "address": "4517 Washington Ave. Manchester, Kentucky 39495",
+                "email": "hello@lavishglamour.io"
+              }, "contact": {
+                "title": "Contact Information",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "email": "Email",
+                "phone": "Phone",
+                "message": "Message",
+                "submit": "Submit",
+                "thankYou": "Thank you for your message"
+              }, "register": {
+                "title": "Sign Up",
+                "usernamePlaceholder": "Username",
+                "emailPlaceholder": "Email",
+                "passwordPlaceholder": "Password",
+                "buttonText": "Register",
+                "verificationMessage": "Check your email for verification link",
+                "alreadyHaveAccount": "Already have an account?",
+                "loginLink": "Login"
+              }, "login": {
+                "title": "Login",
+                "emailPlaceholder": "Email",
+                "passwordPlaceholder": "Password",
+                "buttonText": "Sign In",
+                "successMessage": "Login successful!",
+                "errorMessage": "An error occurred during login.",
+                "noAccount": "Don't have an account?",
+                "signupLink": "Sign Up"
+              }, "footer": {
+                "company": "COMPANY",
+                "aboutUs": "ABOUT US",
+                "faq": "FAQ",
+                "ourBlog": "OUR BLOG",
+                "ourShop": "OUR SHOP",
+                "contact": "CONTACT",
+                "followUs": "FOLLOW US",
+                "facebook": "FACEBOOK",
+                "instagram": "INSTAGRAM",
+                "youtube": "YOUTUBE",
+                "pinterest": "PINTEREST",
+                "copyright": "© 2021 Qode Interactive, All Rights Reserved"
+              },"backImage1": {
+                "title": "Your Basket"
+              }, "yourBasket": {
+                "emptyCartTitle": "Your cart is empty",
+                "emptyCartMessage": "Looks like you haven't added anything to your cart yet.",
+                "continueShopping": "Continue Shopping",
+                "title": "Title",
+                "image": "Image",
+                "price": "Price",
+                "quantity": "Quantity",
+                "delete": "DELETE",
+                "buyNow": "BUY NOW",
+                "loginAlert": "You need to log in to proceed to checkout."
+              },
+              "imageBack": {
+                "header": "Our Products"
+              },  "filteredProducts": {
+                "title": "Filtered Products",
+                "all": "All",
+                "rings": "Rings",
+                "necklaces": "Necklaces",
+                "earrings": "Earrings",
+                "noData": "No products found."
+              },"myProducts": {
+                "searchPlaceholder": "Search by title...",
+                "sortTitleAsc": "Title (A-Z)",
+                "sortTitleDesc": "Title (Z-A)",
+                "sortPriceAsc": "Price (Low to High)",
+                "sortPriceDesc": "Price (High to Low)",
+                "noProducts": "No products found."
+              },  "recommended": {
+                "waitMessage": "WAIT! CHECK OUT THESE",
+                "title": "ITEMS RECOMMENDED FOR",
+                "highlight": "YOU!"
+              }, "thankYou": {
+                "title": "Thank You!",
+                "message": "Your payment has been successfully processed. We appreciate your purchase!",
+                "continueShopping": "Continue Shopping"
+              }, "adminBlogList": {
+                "title": "Blog Management",
+                "addBlogTitle": "Add New Blog",
+                "editBlogTitle": "Edit Blog",
+                "formBlogTitle": "Blog Title",
+                "formBlogImage": "Blog Image URL",
+                "addBlogButton": "Add Blog",
+                "updateBlogButton": "Update Blog",
+                "noBlogs": "No blogs available.",
+                "editButton": "Edit",
+                "deleteButton": "Delete",
+                "alertIncompleteForm": "Please provide both title and image URL for the new blog.",
+                "alertInvalidDelete": "Invalid blog ID for deletion.",
+                "alertInvalidEdit": "Editing blog is invalid or incomplete."
+              }, "wishlist": {
+                "emptyMessage": "Your wishlist is empty",
+                "emptyText": "It looks like you haven’t added any items to your wishlist yet.",
+                "startBrowsing": "Start Browsing",
+                "wishlistTitle": "Your Wishlist"
+              }, 
+                "backImages": {
+                  "wishlistTitle": "Your Wishlist"
+                }
+          
+        
+      
+}

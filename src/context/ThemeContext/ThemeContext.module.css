@@ -1,0 +1,35 @@
+/* General Styles */
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: var(--nav-background);
+    color: var(--nav-text-color);
+  }
+  
+  .navbar-menu li a {
+    color: var(--nav-text-color);
+  }
+  
+  .userLogin h6,
+  .userLogin h6 span {
+    color: var(--nav-text-color);
+  }
+  
+  /* Icons */
+  .icons button {
+    color: var(--icon-color);
+  }
+  
+  /* Burger Menu Bars */
+  .burger .bar {
+    background-color: var(--icon-color);
+  }
+  
+  /* Other Components */
+   /* Apply similar variable usage for other components */
+  
+  

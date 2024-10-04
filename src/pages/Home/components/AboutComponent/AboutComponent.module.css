@@ -1,0 +1,129 @@
+.aboutComponent {
+  width: 100%;
+  height: 650px;
+  background-image: url("https://cdn.prod.website-files.com/64e10aa388168f56d36f2dae/65df3b3d6fcd4d32f1ac66c3_Header%20Section%20Shape%20Line-p-2000.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 50px;
+  background-color: var( --background-color);
+  color: var(  --text-color);
+ 
+
+}
+.box1 {
+  width: 400px;
+  height: 300px;
+}
+.box1 img {
+  width: 100%;
+  transition: all 0.4s ease-in;
+  border-radius: 50px;
+}
+.box1 img:hover {
+  transform: scale(1.01);
+}
+.box2 {
+  width: 400px;
+  height: 400px;
+
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box2 h1 {
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 40px;
+}
+.box2 p {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 10px;
+}
+.box2 a button {
+  width: 150px;
+  padding: 8px 14px;
+  border: 1px solid black;
+  color: var(--button);
+  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+  background-color: var(--button-color);
+  color: var(--btn-txt-clr);
+  font-size: 15px;
+}
+.box2 a button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.box3 {
+  width: 400px;
+  height: 500px;
+}
+.box3 img {
+  width: 100%;
+  transition: all 0.4s ease-in;
+  border-radius: 50px;
+}
+
+.box3 img:hover {
+  transform: scale(1.01);
+}@media (max-width: 800px) {
+  .aboutComponent {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .box2 h1 {
+    font-size: 35px;
+  }
+
+  .box2 p {
+    font-size: 18px;
+  }
+
+  .box2 a button {
+    width: 130px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutComponent {
+    padding: 10px;
+  }
+
+  .box1,
+  .box2,
+  .box3 {
+    width: 100%;
+  }
+
+  .box2 h1 {
+    font-size: 28px;
+  }
+
+  .box2 p {
+    font-size: 14px;
+  }
+
+  .box2 a button {
+    width: 120px;
+    font-size: 14px;
+  }
+}

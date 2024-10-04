@@ -1,0 +1,150 @@
+.fullContainer {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  
+}
+.images {
+  width: 38%;
+  height: 600px;
+}
+.images img {
+  width: 100%;
+  height: 100%;
+}
+
+.faqContainer {
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 800px;
+background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 12px;
+  font-family: "Marcellus", serif;
+}
+
+
+.faqTitle {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333333;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+
+
+.faqRow {
+
+  color: var(--text-color);
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 20px;
+  
+}
+
+.faqRow:hover {
+  color: var(--text-color);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.faqRowTitle {
+  font-size: 22px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.faqRowContent {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666666;
+  line-height: 1.6;
+ 
+}
+
+.arrowIcon {
+  transition: transform 0.3s ease;
+}
+.FaqInfoCont_faqContainer__fy {
+  background-color: blue; 
+}
+.faqRow{
+  background-color: red;
+}
+
+@media (max-width: 800px) {
+  .fullContainer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .images {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .faqContainer {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .faqTitle {
+    font-size: 28px;
+  }
+
+  .faqRowTitle {
+    font-size: 20px;
+  }
+
+  .faqRowContent {
+    font-size: 16px;
+  }
+}
+.arrowIcon.open {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 500px) {
+  .fullContainer {
+    padding: 10px;
+  }
+
+  .images {
+    margin-bottom: 15px;
+  }
+
+  .faqContainer {
+    padding: 15px;
+  }
+
+  .faqTitle {
+    font-size: 24px;
+  }
+
+  .faqRowTitle {
+    font-size: 18px;
+  }
+
+  .faqRowContent {
+    font-size: 14px;
+  }
+
+  
+}

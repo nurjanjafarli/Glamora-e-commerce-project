@@ -1,0 +1,61 @@
+.container {
+padding: 50px;
+ 
+  background-color: var( --background-color);
+  color: var(  --text-color);
+
+}
+
+.textBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80px;
+  text-align: center;
+  padding-left: 20px;
+  margin: 0 auto;
+ border-radius: 9px;
+
+}
+
+.textBox button {
+  border: 1px solid black;
+  background-color: transparent;
+  color: white;
+  font-family: "Marcellus", serif;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 2px 20px;
+  width: 150px;
+  background-color:var(--button-color);}
+
+@media (max-width: 800px) {
+  .textBox {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    margin: 0 auto;
+  }
+
+  .textBox button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .textBox {
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding-left: 0;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+
+  .textBox button {
+    font-size: 15px;
+    margin: 5px 0;
+    width: 200px;
+  }
+}

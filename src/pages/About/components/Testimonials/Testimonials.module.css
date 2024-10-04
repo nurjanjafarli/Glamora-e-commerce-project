@@ -1,0 +1,86 @@
+.testimonialsContainer {
+  width: 100%;
+  height: 600px;
+  background-color: #f1e2de;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-family: "Cormorant Garamond", serif;
+  background-color: var( --background-color);
+  color: var(  --text-color);
+  background-image: url("https://cdn.prod.website-files.com/64e10aa388168f56d36f2dae/65df3b3d6fcd4d32f1ac66c3_Header%20Section%20Shape%20Line-p-2000.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.testimonialsContainer p {
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+.testimonialsContainer h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.testimonialsContainer h2{
+    padding: 20px 100px;
+    font-weight: 400;
+    color: var(  --text-color);
+ 
+}
+.testimonialsContainer span{
+    font-size: 24px;
+    font-weight: 200;
+     
+}
+@media (max-width: 800px){
+  .testimonialsContainer p {
+    font-size: 24px;
+    font-weight: 500;
+    
+  }
+  .testimonialsContainer h1{
+      font-size: 34px;
+      font-weight: 500;
+  }
+  .testimonialsContainer h2{
+      padding: 20px 50px;
+      font-weight: 400;
+  
+      font-size: 28px;
+   
+  }
+  .testimonialsContainer span{
+      font-size: 24px;
+      font-weight: 200;
+       
+  }
+
+}
+@media (max-width: 800px){
+  .testimonialsContainer p {
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .testimonialsContainer h1{
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .testimonialsContainer h2{
+     
+      font-weight: 400;
+ 
+      font-size: 22px;
+   
+  }
+  .testimonialsContainer span{
+      font-size: 18px;
+      font-weight: 200;
+       
+  }
+
+}
