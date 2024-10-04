@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/css/main.4919cb65.css",
+    "main.js": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/js/main.d8b1db31.js",
+    "static/js/952.aaaf0c30.chunk.js": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/js/952.aaaf0c30.chunk.js",
+    "index.html": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/index.html",
+    "static/media/getFetch.cjs": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/media/getFetch.8cb691744774ba50fee8.cjs",
+    "main.4919cb65.css.map": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/css/main.4919cb65.css.map",
+    "main.d8b1db31.js.map": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/js/main.d8b1db31.js.map",
+    "952.aaaf0c30.chunk.js.map": "/https//nurjanjafarli.github.io/Glamora-e-commerce-project/static/js/952.aaaf0c30.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4919cb65.css",
+    "static/js/main.d8b1db31.js"
+  ]
+}
